@@ -31,12 +31,14 @@ script.js → Core navigation logic
 
 script2.js → Secondary script for additional functions
 
+
 🚀 Features
 
 ✅ Interactive college map navigation
 ✅ Multiple routes/pages for better visualization
 ✅ Responsive design for desktops and mobile
 ✅ Simple and easy-to-use interface
+
 
 📌 How to Run
 
