@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Campus Navigation</title>
+  <link rel="stylesheet"href="style.css">
+</head>
+<body>
+  <center>
+    <h1>College Campus Navigation</h1>
+    <label for="startLocation"><i>Select Start Location:</i></label>
+    <select id="startLocation">
+        <option value="A+block">A Block</option>
+        <option value="B+block">B Block</option>
+        <option value="KCT+Tech+Park">KCT Tech Park</option>
+      <option value="E+block">E Block</option>
+      <option value="F+block">F Block</option>
+      <option value="C+block">C Block</option>
+      <option value="Admin+block">Admin Block</option>
+      <option value="KCT+Girls+Hostel">KCT Girls Hostel</option>
+      <option value="KCT+Boys+Hostel">KCT Boys Hostel</option>
+      <option value="Admission+Center">Admission Center</option>
+    </select>
+    <br>
+    <label for="endLocation"><i>Select End Location:</i></label>
+    <select id="endLocation">
+        <option value="A+block">A Block</option>
+        <option value="B+block">B Block</option>
+        <option value="KCT+Tech+Park">KCT Tech Park</option>
+      <option value="E+block">E Block</option>
+        <option value="F+block">F Block</option>
+        <option value="C+block">C Block</option>
+      <option value="Admin+block">Admin Block</option>
+      <option value="KCT+Girls+Hostel">KCT Girls Hostel</option>
+      <option value="KCT+Boys+Hostel">KCT Boys Hostel</option>
+      <option value="Admission+Center">Admission Center</option>
+      </select>
+    </select>
+    <br>
+    <button onclick="showPath()">Show Path</button>
+    <br>
+    <div id="mapContainer">
+        <iframe id="mapIframe" src=""width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </center>
+
+    <script src="script.js"></script>
+</body>
+</html>
